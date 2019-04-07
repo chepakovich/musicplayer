@@ -94,9 +94,3 @@ const mapStateToProps = (state) => {
 };
 
 export default connect(mapStateToProps, { fetchSongs, fetchCollection })(Songs);
-
-
-/*
-    console.log("PROPS:", this.props);
-    console.log("STATE:", this.state);
-*/

@@ -53,8 +53,8 @@ div[class=item] {
 .active {
   background-color: #D8D8D8;
   background-image: url("components/icon.png");
-  background-position: right 25px center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: right 25px center;
+  background-repeat: no-repeat;
 }
 
 .icon {
@@ -133,11 +133,11 @@ img {
     border-bottom: 0;
   }
   div[class=item]::after {
-    content: ""; /* This is necessary for the pseudo element to work. */ 
-    display: block; /* This will put the pseudo element on its own line. */
-    margin: 0 auto; /* This will center the border. */
-    width: calc(100% - 60px); /* Change this to whatever width you want. */
-    border-bottom: 1px solid #BDBDBD; /* This creates the border. Replace black with whatever color you want. */
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: calc(100% - 60px);
+    border-bottom: 1px solid #BDBDBD;
   }
   .active {
     border-top: 1px solid #BDBDBD;
