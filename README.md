@@ -3,7 +3,7 @@ The music player allows searching for songs by artist on iTunes and playing prev
 
 Here is a screenshot of the app on a small screen:
 <p align="center">
-  <img src="public/screenshot-1.png" />
+  <img src="public/screenshot-1.png" width="360"/>
 </p>
 
 Here is a screenshot of the app on a desktop screen:
