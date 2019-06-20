@@ -41,7 +41,7 @@ class Songs extends Component {
   renderList() {
     return this.props.songs.map((song, index) => {
       return (
-        <div className={this.state.selectedTrackId == song.trackId ? "item active" : "item"} key={index} onClick={() => this.selectSong(song)}>
+        <div className={this.state.selectedTrackId === song.trackId ? "item active" : "item"} key={index} onClick={() => this.selectSong(song)}>
           <div className="card">
             <img src={song.artworkUrl60} className="icon" alt={song.trackName}></img>
             <div className="content">
